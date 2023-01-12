@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[405],{4182:function(n,u,t){(window.__NEXT_P=window.__NEXT_P||[]).push(["/",function(){return t(2759)}])},2759:function(n,u,t){"use strict";t.r(u);var e=t(1527);t(959),u.default=function(){return(0,e.jsx)("div",{children:"Welcome to Next.js!"})}}},function(n){n.O(0,[774,888,179],function(){return n(n.s=4182)}),_N_E=n.O()}]);
