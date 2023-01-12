@@ -4,7 +4,7 @@ import { resolveNotionPage } from '../lib/resolve-notion-page'
 import { NotionPage } from '../lib/components'
 
 export const getStaticProps = async (context) => {
-  const rawPageId = "intropage-a3dd9c923b7845a7b378069d5018924f";
+  const rawPageId = "Aplus-Studio-a3dd9c923b7845a7b378069d5018924f";
 
   try {
     const props = await resolveNotionPage(domain, rawPageId)
