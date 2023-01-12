@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  cache-and-install:
+  cache-install-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -44,12 +44,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
         
-  deployment:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v3
-
+      
       - name: Build
         run: |
           pnpm i
@@ -61,3 +56,4 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./out
+
