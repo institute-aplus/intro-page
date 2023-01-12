@@ -27,9 +27,6 @@ import posthog from 'posthog-js'
 import { bootstrap } from '../lib/bootstrap-client'
 import {
   isServer,
-  fathomId,
-  fathomConfig,
-  posthogId,
 } from '../lib/config'
 
 if (!isServer) {
